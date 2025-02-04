@@ -6,7 +6,8 @@ from appium.options.common import AppiumOptions
 def test_mobilefirstcase():
     desired_caps = dict(
         platformName='Android',
-        deviceName='Android',
+        deviceName='Android'
+        
         browserName='Chrome'
     )
 
